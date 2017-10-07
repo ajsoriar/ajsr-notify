@@ -1,7 +1,7 @@
 /**
  * ajsr-notify
  * Pure javascript notifications plugin. No JQuery needed.
- * @version v0.0.1 - 2017-00-00
+ * @version v0.0.1 - 2017-09-01
  * @link https://github.com/ajsoriar/ajsr-notify
  * @author Andres J. Soria R. <ajsoriar@gmail.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
