@@ -14,7 +14,7 @@ ajsr-notify is a pure javascript plugin to provide simple and customisable notif
 #### 1 Download and Install ajsr-notify:
 
  - NPM: **npm install ajsr-notify**
- - yarn: **yarn install ajsr-notify**
+ - yarn: **yarn add ajsr-notify**
  - Bower: **bower install ajsr-notify**
  - github: **https://github.com/ajsoriar/ajsr-notify**
 <!--- - NuGet: **PM> Install-Package ajsr-notify** -->
@@ -29,7 +29,7 @@ ajsr-notify is a pure javascript plugin to provide simple and customisable notif
 ```javascript
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="dist/ajsr-notify.min.js"></script>
-<link rel="stylesheet" type="text/css" href="dist/ajsr-notify.css">
+<link rel="stylesheet" type="text/css" href="dist/css/tmplt-default.min.css">
 ```
 
 
