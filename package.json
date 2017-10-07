@@ -2,7 +2,7 @@
   "name": "ajsr-notify",
   "version": "0.0.1",
   "description": "Pure javascript notifications plugin. No JQuery needed",
-  "main": "dist/ajsr-notify.js",
+  "main": "dist/ajsr-notify.min.js",
   "directories": {
     "test": "test"
   },

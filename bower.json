@@ -5,18 +5,17 @@
   "authors": [
     "Andres J. Soria R. <ajsoriar@gmail.com>"
   ],
-  "description": "jQuery confirm dialog box including several fun css templates.",
-  "main": "dist/ajsrConfirm.min.js",
+  "description": "Pure javascript notifications plugin. No JQuery needed",
+  "main": "dist/ajsr-notify.min.js",
   "moduleType": [],
   "keywords": [
-    "jQuery-confirm",
+    "js-notify",
     "ajsr-notify",
-    "js-confirm",
-    "confirmation-box",
-    "confirm",
-    "jsconfirm",
-    "jqconfirm",
-    "confirmjs"
+    "js-notify",
+    "notifyation-box",
+    "notify",
+    "jsnotify",
+    "notify.js"
   ],
   "dependencies": {
   },
