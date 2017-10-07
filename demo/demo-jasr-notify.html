@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>ajsrConfirm - Templates example</title>
+        <!--
+        <link rel="stylesheet" href="../dist/css/tmplt-default.css">
+        <link rel="stylesheet" href="../dist/css/tmplt-prince-of-persia.css">
+        <link rel="stylesheet" href="../dist/css/tmplt-synthwave-1.css">
+        <link rel="stylesheet" href="../dist/css/tmplt-future-blue.css">
+        <link rel="stylesheet" href="../dist/css/tmplt-windows-98.css">
+        <link rel="stylesheet" href="../dist/css/tmplt-pill.css">
+        -->
+
+        <!-- <link rel="stylesheet" href="../src/css/tmplt-default.css"> -->
+        <link rel="stylesheet" href="../dist/css/tmplt-default.css">
+
+    </head>
+
+    <body onload="welcome()">
+
+        <h1> Templates functionality example.</h1>
+        
+        <input type="button" onclick="showAlert( null, false )" value="None (default)">
+        <input type="button" onclick="showAlert( 'info', false )" value="Info">
+        <input type="button" onclick="showAlert( 'error', false )" value="Error">
+        <input type="button" onclick="showAlert( 'alert', false )" value="Alert">
+        <input type="button" onclick="showAlert( 'success', false )" value="Success">
+        <!--
+        <input type="button" onclick="showAlert( null, 'windows-98', false )" value="Windows 98 Theme, None">
+        <input type="button" onclick="showAlert( 'error', 'windows-98', false )" value="Windows 98 Theme, Error">
+        -->
+
+        <!-- <script src="../src/ajsr-notify.js"></script> -->
+        <script src="../src/ajsr-notify.js"></script>
+        
+        <script language="javascript">
+        	
+        function showAlert ( alertType, templateName, nineCorners ) {
+
+            ajsrnotify({
+                msg: "<b>Oops!</b> This is amazing!",
+                type: alertType, // null, "error", "info", "alert", "success"
+                position: "center", // null, "right", "left"
+                timeout: 2000,
+                theme: templateName // null, "windows-98"
+            });
+        }
+
+        var welcome = function() {
+
+            ajsrnotify({
+                msg: "<b>Welcome!</b> This is amazing!",
+                type: "success", // null, "error", "info", "alert", "success"
+                position: "center", // null, "right", "left"
+                timeout: 2000,
+                theme: null // null, "windows-98"
+            })
+
+        };
+
+        </script>
+
+    </body>
+
+</html>

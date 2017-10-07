@@ -1,0 +1,31 @@
+{
+  "name": "ajsr-notify",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ajsoriar/ajsr-notify.git",
+  "authors": [
+    "Andres J. Soria R. <ajsoriar@gmail.com>"
+  ],
+  "description": "Pure javascript notifications plugin. No JQuery needed",
+  "main": "dist/ajsr-notify.min.js",
+  "moduleType": [],
+  "keywords": [
+    "js-notify",
+    "ajsr-notify",
+    "js-notify",
+    "notifyation-box",
+    "notify",
+    "jsnotify",
+    "notify.js"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ]
+}
